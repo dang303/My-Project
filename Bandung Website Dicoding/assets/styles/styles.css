@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  /* text-shadow: 1px 1px 0px #000000;
+    background-color: #eeeeee;
+    color: #666666; */
+}
+
+h2,
+h3 {
+  color: #00a2c6;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* p#satu {
+    text-indent: 2em;
+ }
+  
+ p#dua {
+    text-indent: 2em;
+ } */
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+.profile header {
+  text-align: center;
+}
+/* membuat kartu/mengkotak-kotakan artikel (tadi lalai/tidak teliti sehingga kartu di artikel aside tidak muncul padahal udah jauh materi je floating wkwkwk */
+.card {
+  box-shadow: 7px 7px 4px 3px rgba(0, 162, 198, 1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* menambah sticky navigasi di jumbtron. line 85,86 */
+
+/* untuk menahan navigasi bar masih belum tertahan */
+header {
+  display: inline;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+/*ini membuat float aside kekanan*/
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*  Media query */
+/* max-width: 1000px maksudnya dibawah 1000px viewport mobilenya */
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* .box {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: double;
+  
+    border-width: 4px;
+    border-color: red;
+    width: 200px;
+    height: 50px;
+ } */
